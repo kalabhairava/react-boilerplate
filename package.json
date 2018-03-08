@@ -1,7 +1,8 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "A minimalistic boilerplate for quickly building a react app. Includes basic configuration for webpack, babel, and eslint. Supports SCSS for styles.",
+  "description":
+    "A minimalistic boilerplate for quickly building a react app. Includes basic configuration for webpack, babel, and eslint. Supports SCSS for styles.",
   "main": "index.js",
   "repository": "https://github.com/kalabhairava/react-boilerplate.git",
   "author": "Manjunatha D",
@@ -10,7 +11,7 @@
     "lint": "eslint src/**/*.js",
     "build": "webpack",
     "dev": "yarn lint && webpack-dev-server",
-    "start": "yarn build && node server.js"
+    "start": "npm run-script build && node server.js"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
